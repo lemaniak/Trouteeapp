@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/register_client_location_cki_client_name"
+        android:padding="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/lbl_save_client_location"
+        android:id="@+id/button4"
+        android:background="@drawable/round_lime"
+        android:textColor="@color/white"
+        android:padding="2dp"
+        android:layout_margin="2dp"
+        android:textSize="15sp"
+        android:layout_below="@id/register_client_location_cki_client_name"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>

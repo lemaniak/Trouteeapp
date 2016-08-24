@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Troutee</string>
+    <string name="title_activity_landing">Login</string>
+    <string name="title_activity_signup">SignupActivity</string>
+
+    <string name="title_activity_login">Loguear</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in">Loguear</string>
+    <string name="action_register_device">Registrar dispositivo</string>
+    <string name="action_create_account">Crear cuenta</string>
+    <string name="action_signup">Registrar</string>
+
+    <!--Label String-->
+    <string name="lbl_firstname">Nombre</string>
+    <string name="lbl_lastname">Apellido</string>
+    <string name="lbl_email">Correo</string>
+    <string name="lbl_password">Contraseña</string>
+    <string name="lbl_password_confirm">Confirmar contraseña</string>
+    <string name="lbl_already_registered">Registrado? logueate</string>
+    <string name="lbl_pick_capture_photo">Tomar foto</string>
+    <string name="lbl_pick_select_picture">Seleccionar imagen</string>
+    <string name="lbl_cancel">Cancelar</string>
+    <string name="lbl_select_image">Seleccionar imagen usuario</string>
+    <string name="lbl_save">Salvar</string>
+    <string name="lbl_save_client_location">Salvar ubicacion</string>
+    <string name="lbl_member_since">Miembre desde</string>
+    <string name="lbl_last_login">Ultimo logueo</string>
+    <string name="lbl_total_devices">Total dispositivos</string>
+    <string name="lbl_auto_login">Habilitar logueo automatico</string>
+    <string name="lbl_prev">Anterior</string>
+    <string name="lbl_next">Siguiente</string>
+    <string name="lbl_phone">Numero telefono</string>
+    <string name="lbl_vendor_code">Codigo vendedor</string>
+    <string name="lbl_wiz_step_2_tittle">Select monitoring hours</string>
+    <string name="lbl_monitor_start_hour">start at</string>
+    <string name="lbl_monitor_end_hour">end at</string>
+    <string name="lbl_wiz_step_3_tittle">Select monitor intervals</string>
+    <string name="lbl_minutes">Minutes</string>
+    <string name="lbl_hours">Hours</string>
+    <string name="lbl_seconds">Seconds</string>
+    <string name="lbl_clear">Clear</string>
+    <string name="lbl_default_time">Each Minute</string>
+    <string name="lbl_tracking_interval">Tracking Interval</string>
+    <string name="lbl_tracking_interval_format_text">Monitor from %1$s %2$s to %3$s %4$s each %5$s minutes</string>
+    <string name="lbl__checkin">Visitar</string>
+    <string name="lbl__location_mocks">Habilitar ubicaciones falsas</string>
+    <string name="lbl_client_name_hint">Digite el nombre del cliente</string>
+    <string name="lbl_syncronize_clients">Sincronizar clientes</string>
+
+    <string name="error_firstname_required">El nombre es requerido</string>
+    <string name="error_lastname_required">El apellido es requerido</string>
+    <string name="error_email_required">El correo es requerido</string>
+    <string name="error_password_required">La contraseña es requerida</string>
+    <string name="error_firstname_invalid_length">El nombre debe contener entre 2 y 50 caracteres</string>
+    <string name="error_lastname_invalid_length">El apellido debe contener entre 2 y 50 caracteres</string>
+    <string name="error_password_invalid_length">La contraseña debe contener entre 2 y 50 caracteres</string>
+    <string name="error_email_invalid">Direccion de correo invalida</string>
+    <string name="error_email_already_in_use">Correo ya esta en uso</string>
+    <string name="error_repassword_required">Contrasela de confirmacion es requerida</string>
+    <string name="error_repassword_mismatch">Contraseñas no coinciden</string>
+    <string name="error_registering_user">Hubo un error registrando el usuario</string>
+    <string name="error_updating_user">Hubo un error actualizando el usuario</string>
+    <string name="error_updating_client">Hubo un error actualizando el cliente</string>
+    <string name="error_updating_client_coordinates">Coordenadas pertenecen a otro cliente</string>
+    <string name="error_no_internet">No hay acceso a internet</string>
+    <string name="error_nothing_to_update">nada que actualizar</string>
+    <string name="error_taking_picture">Error al tomar foto</string>
+    <string name="error_cropping_picture">Error recortando imagen</string>
+    <string name="error_signing_in_user">Error al autenticar usuario</string>
+    <string name="error_updating_client_data">Error actualizando datos de los clientes</string>
+    <string name="error_logging_out_user">Error al desloguear usuario</string>
+    <string name="error_expires_token">Error token esta expirado</string>
+    <string name="error_invalid_token">Error token es invalido</string>
+    <string name="error_invalid_credentials">Credenciales invalidos</string>
+    <string name="error_user_not_found">Error usuario no encontrado</string>
+    <string name="error_start_hour_error">Error start hour should be lower than end hour</string>
+    <string name="error_start_minute_error">Error start minute should be lower than end minute</string>
+    <string name="error_start_monitor_data_required">Monitor start time is required</string>
+    <string name="error_end_monitor_data_required">Monitor end time is required</string>
+    <string name="error_week_days_required">Select at least one week day</string>
+    <string name="error_phone_invalid_format">Telefono contiene un formato invalido</string>
+    <string name="error_vendor_code_invalid_size">The vendor code must contain between 2 and 100 characters</string>
+    <string name="error_invalid_interval_value">Monitor Interval must contain a value of 1,2,5,10,15,20,30,60</string>
+    <string name="error_weekdays_empty">Device monitoring week days are required</string>
+    <string name="error_creating_device">There was an error creating the device</string>
+    <string name="error_syncronizing_data">Error al sincronizar datos de los clientes</string>
+    <string name="error_client_id_required">Error al sincronizar datos de los clientes</string>
+    <string name="error_getting_coordinates">Error obteniendo coordenadas actuales</string>
+    <string name="error_not_near_checkin_point">No esta lo suficientemente cerca</string>
+    <string name="error_invalid_coordinates">Coordenadas invalidas</string>
+    <string name="error_mock_coordinate">Ubicaciones falsas no son validas.</string>
+
+    <string name="msg_user_registration_success">Usuario registrado exitosamente</string>
+    <string name="msg_user_update_success">Usuario actualizado exitosamente</string>
+    <string name="msg_user_registration_in_progress">Registrando usuario</string>
+    <string name="msg_user_log_in_progress">Autenticando usuario</string>
+    <string name="msg_user_log_in_success">Usuario autenticado exitosamente</string>
+    <string name="msg_user_log_out_success">Usuario deslogueado exitosamente</string>
+    <string name="msg_update_client_data_success">Datos de clientes actualizados exitosamente</string>
+    <string name="msg_loading">Cargando</string>
+    <string name="msg_updating">Actualizando</string>
+    <string name="msg_updating_client_data">Actualizando datos cliente</string>
+    <string name="msg_creating">Creando</string>
+    <string name="msg_device_create_success">Device created successfully</string>
+    <string name="msg_current_location">Ubicacion actual</string>
+    <string name="email_sent_sucess">Email sent to system administrator</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">abrir</string>
+    <string name="navigation_drawer_close">cerrar</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Configuracion</string>
+    <string name="title_activity_troutee">TrouteeActivity</string>
+
+    <string name="confirmation">Confirmacion</string>
+    <string name="log_out_confirmation">Realmente desea salir?</string>
+    <string name="update_client__coordinates_confirmation">Cliente seleccionado no tiene ubicacion geografica asignada desea registrar una ubicacion geografica?</string>
+    <string name="update_client_coordinates_confirmation_msg">Desea actualizar la ubicacion del cliente?</string>
+    <string name="checkin_confirmation">Desea registrar una visita a este cliente?</string>
+    <string name="syncronize_clients_confirmation">No hay datos de clientes desea actualizar?</string>
+
+
+    <string name="hello_world">hello?</string>
+    <string name="profile">Perfil</string>
+    <string name="update_profile">Actualizar perfil</string>
+    <string name="title_activity_update_profile">UpdateProfileActivity</string>
+
+
+    <string name="google_app_id">APP ID</string>
+    <string name="google_api_key">API KEY</string>
+    <string name="title_activity_new_device">NewDeviceActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="time_interval_array">
+        <item>10</item>
+        <item>30 seconds</item>
+        <item>30 seconds</item>
+    </string-array>
+
+
+    <string name="stop_location_updates">Solicitud de coordenadas detenida</string>
+    <string name="start_location_updates">Solicitar coordenadas</string>
+
+</resources>

@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Troutee</string>
+    <string name="title_activity_landing">Login</string>
+    <string name="title_activity_signup">SignupActivity</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register_device">Register Device</string>
+    <string name="action_create_account">Create Account</string>
+    <string name="action_signup">Signup</string>
+
+    <!--Label String-->
+    <string name="lbl_firstname">FirstName</string>
+    <string name="lbl_lastname">Lastname</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_password_confirm">Confirm Password</string>
+    <string name="lbl_already_registered">Already Registered? sign in</string>
+    <string name="lbl_pick_capture_photo">Take a picture</string>
+    <string name="lbl_pick_select_picture">Select a picture</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_select_image">Select User Image</string>
+    <string name="lbl_save">Save</string>
+    <string name="lbl_save_client_location">Save location</string>
+    <string name="lbl_member_since">Member since</string>
+    <string name="lbl_last_login">Last login</string>
+    <string name="lbl_total_devices">Total devices</string>
+    <string name="lbl_auto_login">enable automatic login</string>
+    <string name="lbl_prev">Previous</string>
+    <string name="lbl_next">Next</string>
+    <string name="lbl_phone">Phone Number</string>
+    <string name="lbl_vendor_code">Vendor Code</string>
+    <string name="lbl_wiz_step_2_tittle">Select monitoring hours</string>
+    <string name="lbl_monitor_start_hour">start at</string>
+    <string name="lbl_monitor_end_hour">end at</string>
+    <string name="lbl_wiz_step_3_tittle">Select monitor intervals</string>
+    <string name="lbl_minutes">Minutes</string>
+    <string name="lbl_hours">Hours</string>
+    <string name="lbl_seconds">Seconds</string>
+    <string name="lbl_clear">Clear</string>
+    <string name="lbl_default_time">Each Minute</string>
+    <string name="lbl_tracking_interval">Tracking Interval</string>
+    <string name="lbl_tracking_interval_format_text">Monitor from %1$s %2$s to %3$s %4$s each %5$s minutes</string>
+    <string name="lbl__checkin">Check In</string>
+    <string name="lbl__location_mocks">Enable Location Moking</string>
+    <string name="lbl_client_name_hint">Enter client name to search</string>
+    <string name="lbl_syncronize_clients">Synchronize Client data</string>
+
+    <string name="error_firstname_required">Firstname is required</string>
+    <string name="error_lastname_required">Lstname is required</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_firstname_invalid_length">Firstname must contain between 2 and 50 characters</string>
+    <string name="error_lastname_invalid_length">Lastname must contain between 2 and 50 characters</string>
+    <string name="error_password_invalid_length">Password must contain between 2 and 50 characters</string>
+    <string name="error_email_invalid">Email address is invalid</string>
+    <string name="error_email_already_in_use">Email address is already registered</string>
+    <string name="error_repassword_required">Password confirmation is required</string>
+    <string name="error_repassword_mismatch">Password confirmation does not match</string>
+    <string name="error_registering_user">There was an error registering</string>
+    <string name="error_updating_user">There was an error updating the user</string>
+    <string name="error_updating_client">There was an error updating the client</string>
+    <string name="error_updating_client_coordinates">Client coordinates belong to another client</string>
+    <string name="error_no_internet">There is no internet access</string>
+    <string name="error_nothing_to_update">Nothing to update</string>
+    <string name="error_taking_picture">Error setting user picture</string>
+    <string name="error_cropping_picture">Error cropping picture</string>
+    <string name="error_signing_in_user">Error Signing in</string>
+    <string name="error_updating_client_data">Error Updating Clients Data</string>
+    <string name="error_logging_out_user">Error logging out user</string>
+    <string name="error_expires_token">Error token is expired</string>
+    <string name="error_invalid_token">Error token is invalid</string>
+    <string name="error_invalid_credentials">Invalid credentials</string>
+    <string name="error_user_not_found">Error User not found</string>
+    <string name="error_start_hour_error">Error start hour should be lower than end hour</string>
+    <string name="error_start_minute_error">Error start minute should be lower than end minute</string>
+    <string name="error_start_monitor_data_required">Monitor start time is required</string>
+    <string name="error_end_monitor_data_required">Monitor end time is required</string>
+    <string name="error_week_days_required">Select at least one week day</string>
+    <string name="error_phone_invalid_format">The phone contains an invalid format</string>
+    <string name="error_vendor_code_invalid_size">The vendor code must contain between 2 and 100 characters</string>
+    <string name="error_invalid_interval_value">Monitor Interval must contain a value of 1,2,5,10,15,20,30,60</string>
+    <string name="error_weekdays_empty">Device monitoring week days are required</string>
+    <string name="error_creating_device">There was an error creating the device</string>
+    <string name="error_syncronizing_data">There was an error synchronizing the client data</string>
+    <string name="error_client_id_required">There was an error synchronizing the client data</string>
+    <string name="error_getting_coordinates">There was an error getting current user location</string>
+    <string name="error_not_near_checkin_point">You are not near the location checkin</string>
+    <string name="error_invalid_coordinates">Invalid location values</string>
+    <string name="error_mock_coordinate">Mock locations are invalid location.</string>
+
+    <string name="msg_user_registration_success">User Registered successfully</string>
+    <string name="msg_user_update_success">User Updated successfully</string>
+    <string name="msg_user_registration_in_progress">Registering user</string>
+    <string name="msg_user_log_in_progress">Signing in user</string>
+    <string name="msg_user_log_in_success">Signing in user Success</string>
+    <string name="msg_user_log_out_success">User Logged out successfully</string>
+    <string name="msg_update_client_data_success">Clients data updated successfully</string>
+    <string name="msg_loading">Loading data</string>
+    <string name="msg_updating">Updating</string>
+    <string name="msg_updating_client_data">Updating client data</string>
+    <string name="msg_creating">Creating</string>
+    <string name="msg_device_create_success">Device created successfully</string>
+    <string name="msg_current_location">Current Location</string>
+    <string name="email_sent_sucess">Email sent to system administrator</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_troutee">TrouteeActivity</string>
+
+    <string name="confirmation">Confirmation</string>
+    <string name="log_out_confirmation">Do you really want to log out?</string>
+    <string name="update_client__coordinates_confirmation">Selected client does not have location data do you wish to update client location data?</string>
+    <string name="update_client_coordinates_confirmation_msg">do you wish to update client location?</string>
+    <string name="checkin_confirmation">Do you want to check in selected client?</string>
+    <string name="syncronize_clients_confirmation">There is no client data do you wish to synchronize client data?</string>
+
+
+    <string name="hello_world">hello?</string>
+    <string name="profile">Profile</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="title_activity_update_profile">UpdateProfileActivity</string>
+
+
+    <string name="google_app_id">APP ID</string>
+    <string name="google_api_key">APP KEY</string>
+    <string name="title_activity_new_device">NewDeviceActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="time_interval_array">
+        <item>10</item>
+        <item>30 seconds</item>
+        <item>30 seconds</item>
+    </string-array>
+
+    <string name="stop_location_updates">Location updates stopped</string>
+    <string name="start_location_updates">Start location updates</string>
+
+</resources>

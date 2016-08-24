@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/register_client_location_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentLocation"
+        android:background="@drawable/target"
+        android:onClick="gotoCurrentLocation"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/start_location_updates"
+        android:background="@drawable/start"
+        android:onClick="requestLocationUpdates"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignBottom="@+id/currentLocation"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stop_location_updates"
+        android:background="@drawable/stop"
+        android:onClick="stopLocationUpdates"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignTop="@+id/currentLocation"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

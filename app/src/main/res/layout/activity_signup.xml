@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/signup_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/troutee">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/signup_tf_firstname"
+        android:background="@drawable/round_textfield"
+        android:hint="@string/lbl_firstname"
+        android:singleLine="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="145dp"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/signup_tf_lastname"
+        android:background="@drawable/round_textfield"
+        android:hint="@string/lbl_lastname"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/signup_tf_firstname"
+        android:layout_alignRight="@+id/signup_tf_firstname"
+        android:layout_alignEnd="@+id/signup_tf_firstname"
+        android:layout_alignLeft="@+id/signup_tf_firstname"
+        android:layout_alignStart="@+id/signup_tf_firstname" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/signup_tf_email"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/round_textfield"
+        android:hint="@string/lbl_email"
+        android:singleLine="true"
+        android:layout_below="@+id/signup_tf_lastname"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/signup_tf_lastname"
+        android:layout_alignStart="@+id/signup_tf_lastname"
+        android:layout_alignRight="@+id/signup_tf_lastname"
+        android:layout_alignEnd="@+id/signup_tf_lastname" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/signup_tf_password"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/lbl_password"
+        android:singleLine="true"
+        android:background="@drawable/round_textfield"
+        android:layout_below="@+id/signup_tf_email"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/signup_tf_email"
+        android:layout_alignStart="@+id/signup_tf_email"
+        android:layout_alignRight="@+id/signup_tf_email"
+        android:layout_alignEnd="@+id/signup_tf_email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/signup_tf_repassword"
+        android:background="@drawable/round_textfield"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/lbl_password_confirm"
+        android:singleLine="true"
+        android:layout_below="@+id/signup_tf_password"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/signup_tf_password"
+        android:layout_alignStart="@+id/signup_tf_password"
+        android:layout_alignRight="@+id/signup_tf_password"
+        android:layout_alignEnd="@+id/signup_tf_password" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_signup"
+        android:id="@+id/signup_btn_create"
+        android:background="@drawable/round_blue"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:layout_below="@+id/signup_tf_repassword"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/signup_tf_repassword"
+        android:layout_alignStart="@+id/signup_tf_repassword"
+        android:layout_alignRight="@+id/signup_tf_repassword"
+        android:layout_alignEnd="@+id/signup_tf_repassword"
+        android:onClick="Signup"/>
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/lbl_already_registered"
+        android:id="@+id/signup_tf_login"
+        android:onClick="RedirectToLogin"
+        android:textColor="#ffffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/signup_btn_create"
+        android:layout_alignStart="@+id/signup_btn_create"
+        android:layout_alignRight="@+id/signup_btn_create"
+        android:layout_alignEnd="@+id/signup_btn_create" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/signup_img_user_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:minHeight="100dp"
+        android:src="@drawable/camera"
+        android:onClick="takePicture"
+        app:civ_border_width="0dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_img_user"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/camera"
+        android:onClick="takePicture"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+</RelativeLayout>
